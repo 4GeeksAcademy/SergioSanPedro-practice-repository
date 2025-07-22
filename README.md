@@ -1,33 +1,12 @@
-# ⚛️ React + React Router – Proyecto base (Codespaces Ready)
+# React + Vite
 
-Repositorio vacío para practicar la creación de una SPA con React y React Router.  
-Todo debe ser configurado por el estudiante desde cero dentro de **GitHub Codespaces**.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🎯 Objetivo
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Configurar un proyecto React usando Vite.
-- Instalar y configurar React Router.
-- Organizar la estructura del proyecto.
-- Practicar navegación, rutas anidadas y dinámicas.
+## Expanding the ESLint configuration
 
----
-
-## 💻 Tecnologías a usar
-
-- [React](https://react.dev/)
-- [React Router DOM](https://reactrouter.com/en/main)
-- [Vite](https://vitejs.dev/)
-- [GitHub Codespaces](https://docs.github.com/en/codespaces)
-
----
-
-## 🚀 Instrucciones paso a paso
-
-### Crear el proyecto con Vite
-
-📚 [Documentación oficial de Vite](https://vitejs.dev/guide/)
-
-```bash
-npm create vite@latest . 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
